@@ -10,7 +10,7 @@ Repositório de aprendizagem prática de **Java**, organizado em tickets de dese
 | --- | --- | --- | --- |
 | [TASK-JAVA-001](tasks/TASK-JAVA-001-autorizacao-pagamentos/README.md) | Autorização de pagamentos | Variáveis, comparações, condições e prioridades | ✅ Aprovada |
 | [TASK-JAVA-002](tasks/TASK-JAVA-002-processamento-salarial/README.md) | Processamento salarial | Cálculos, validações, condições aninhadas e reutilização de lógica | ✅ Aprovada |
-| [TASK-JAVA-003](tasks/TASK-JAVA-003-controlo-acessos/README.md) | Controlo de acessos | Condições combinadas, limites e exceções de negócio | 🚧 Em desenvolvimento |
+| [TASK-JAVA-003](tasks/TASK-JAVA-003-controlo-acessos/README.md) | Controlo de acessos | Condições combinadas, limites e exceções de negócio |  Aprovada ✅ |
 
 ## Organização
 

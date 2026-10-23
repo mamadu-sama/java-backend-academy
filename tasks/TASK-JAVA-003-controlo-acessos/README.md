@@ -1,6 +1,6 @@
 # TASK-JAVA-003 — Sistema de controlo de acessos
 
-**Estado:** 🚧 Em desenvolvimento — ainda sem solução submetida  
+**Estado:**  Aprovada ✅ . 
 **Nível:** Iniciante II  
 **Tempo sugerido:** 25–30 minutos  
 **Conceitos permitidos:** variáveis, `String`, `boolean`, `int`, comparações, `if / else if / else` e condições aninhadas. Os operadores `&&` e `||` são opcionais.
