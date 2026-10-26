@@ -38,7 +38,7 @@ Uma fintech precisa de decidir se um pagamento pode ser autorizado. O programa r
 
 ## A minha implementação
 
-Consultar [`Main.java`](Main.java). Para testar outros casos, alterar os valores no início do método `main` e executar `javac Main.java` e `java Main`.
+Consultar [`ProcessamentoSalarial`](ControloAcesso.java). Para testar outros casos, alterar os valores no início do método `main` e executar `javac Main.java` e `java Main`.
 
 ## O que aprendi
 

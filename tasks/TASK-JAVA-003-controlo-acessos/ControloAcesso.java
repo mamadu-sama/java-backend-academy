@@ -1,5 +1,5 @@
 
-public class Main {
+public class ControloAcesso {
 
     public static void main(String[] a){
         int horaEntrada = 22;

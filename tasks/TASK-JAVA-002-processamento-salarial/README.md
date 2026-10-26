@@ -44,7 +44,7 @@ Nos testes, o valor da hora extra é 8 EUR e o prémio possível é 40 EUR.
 
 ## A minha implementação
 
-Consultar [`Main.java`](Main.java). O ficheiro contém a versão que submeti depois das revisões, com os textos de saída corrigidos. Para cada teste, alterar os valores iniciais, compilar e executar.
+Consultar [`ProcessamentoSalarial`](ControloAcesso.java). O ficheiro contém a versão que submeti depois das revisões, com os textos de saída corrigidos. Para cada teste, alterar os valores iniciais, compilar e executar.
 
 ## O que aprendi
 

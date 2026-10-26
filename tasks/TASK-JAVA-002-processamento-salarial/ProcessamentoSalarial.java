@@ -1,4 +1,5 @@
-public class Main {
+
+public class ProcessamentoSalarial {
     public static void main(String[] args) {
         int salarioBase = 920;
         int horarioExtra = 6;

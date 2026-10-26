@@ -21,24 +21,24 @@ java-backend-academy/
 └── tasks/
     ├── TASK-JAVA-001-autorizacao-pagamentos/
     │   ├── README.md
-    │   └── Main.java
+    │   └── ProcessamentoSalarial.java
     ├── TASK-JAVA-002-processamento-salarial/
     │   ├── README.md
-    │   └── Main.java
+    │   └── ProcessamentoSalarial.java
     └── TASK-JAVA-003-controlo-acessos/
         ├── README.md
-        └── Main.java   # adicionar depois de resolver
+        └── ProcessamentoSalarial.java   # adicionar depois de resolver
 ```
 
-Cada pasta contém o enunciado e os critérios de aceitação. O ficheiro `Main.java` contém a minha própria implementação **quando a tarefa estiver resolvida**. Os nomes das pastas são permanentes para preservar o histórico.
+Cada pasta contém o enunciado e os critérios de aceitação. O ficheiro `ProcessamentoSalarial` contém a minha própria implementação **quando a tarefa estiver resolvida**. Os nomes das pastas são permanentes para preservar o histórico.
 
 ## Como executar uma tarefa concluída
 
 É necessário ter o JDK instalado. Entrar na pasta da tarefa e executar:
 
 ```bash
-javac Main.java
-java Main
+javac ProcessamentoSalarial.java
+java ProcessamentoSalarial
 ```
 
 Para experimentar outros casos de teste, alterar os valores das variáveis no início do método `main`, compilar novamente e executar. Nesta fase ainda não se utilizam bibliotecas de testes nem frameworks.

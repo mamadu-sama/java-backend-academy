@@ -48,10 +48,10 @@ Em todos os casos, `nomeProfissional = "Carlos"`.
 
 ## Restrições técnicas
 
-Usar apenas a classe `Main` com método `main`. Não utilizar ciclos, arrays, `Scanner`, métodos adicionais, orientação a objetos avançada, frameworks ou bibliotecas externas.
+Usar apenas a classe `ProcessamentoSalarial` com método `main`. Não utilizar ciclos, arrays, `Scanner`, métodos adicionais, orientação a objetos avançada, frameworks ou bibliotecas externas.
 
 ## Entrega e revisão
 
-Quando resolver a tarefa, acrescentar o meu próprio `Main.java` a esta pasta, compilar, executar os oito cenários e pedir revisão ao Tech Lead. Após a aprovação, atualizar este README com: **estado aprovado, notas de aprendizagem e eventuais correções feitas**.
+Quando resolver a tarefa, acrescentar o meu próprio `ProcessamentoSalarial` a esta pasta, compilar, executar os oito cenários e pedir revisão ao Tech Lead. Após a aprovação, atualizar este README com: **estado aprovado, notas de aprendizagem e eventuais correções feitas**.
 
 **Importante:** este README contém apenas o enunciado. A solução ainda não foi escrita nem disponibilizada.

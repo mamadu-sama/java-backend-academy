@@ -1,4 +1,4 @@
-public class Main {
+public class AutorizacaoPagamento {
     public static void main(String[] args) {
         int saldo = 100;
         int valorPagamento = 150;
