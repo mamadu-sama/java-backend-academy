@@ -1,54 +1,61 @@
-# Java Backend Academy ☕
+# Java Backend Academy
 
-Repositório de aprendizagem prática de **Java**, organizado em tickets de desenvolvimento. Cada tarefa parte de requisitos de negócio, é implementada por mim e passa por uma revisão técnica antes de ser considerada concluída.
+Este é o meu repositório de prática de Java. Cada tarefa parte de um enunciado, é resolvida por mim e fica acompanhada da implementação e de notas de aprendizagem.
 
-**Objetivo:** construir bases sólidas de Java e evoluir gradualmente para desenvolvimento backend. O código deste repositório é educativo, com dados fictícios e regras simplificadas.
+**Objetivo:** consolidar lógica e Java antes de avançar para desenvolvimento backend. Os cenários e os dados são fictícios e simplificados.
 
-## Evolução
+## Exercícios publicados
 
-| Ticket | Projeto | Conteúdos praticados | Estado |
+| Tarefa | Exercício | Conceitos | Estado |
 | --- | --- | --- | --- |
-| [TASK-JAVA-001](tasks/TASK-JAVA-001-autorizacao-pagamentos/README.md) | Autorização de pagamentos | Variáveis, comparações, condições e prioridades | ✅ Aprovada |
-| [TASK-JAVA-002](tasks/TASK-JAVA-002-processamento-salarial/README.md) | Processamento salarial | Cálculos, validações, condições aninhadas e reutilização de lógica | ✅ Aprovada |
-| [TASK-JAVA-003](tasks/TASK-JAVA-003-controlo-acessos/README.md) | Controlo de acessos | Condições combinadas, limites e exceções de negócio |  Aprovada ✅ |
+| [TASK-JAVA-001](tasks/TASK-JAVA-001-autorizacao-pagamentos/) | Autorização de pagamentos | Condicionais e prioridades | Concluída |
+| [TASK-JAVA-002](tasks/TASK-JAVA-002-processamento-salarial/) | Processamento salarial | Cálculos e validações | Concluída |
+| [TASK-JAVA-003](tasks/TASK-JAVA-003-controlo-acessos/) | Controlo de acessos | Operadores lógicos | Concluída |
 
-## Organização
+Estes são os exercícios atualmente publicados. Outros laboratórios de Java e POO estão em desenvolvimento e serão adicionados depois de concluídos e testados.
+
+## Estrutura
 
 ```text
 java-backend-academy/
 ├── README.md
 ├── .gitignore
+├── docs/
+│   ├── COMO-PUBLICAR.md
+│   └── MODELO-README.md
 └── tasks/
     ├── TASK-JAVA-001-autorizacao-pagamentos/
-    │   ├── README.md
-    │   └── ProcessamentoSalarial.java
+    │   ├── AutorizacaoPagamento.java
+    │   └── README.md
     ├── TASK-JAVA-002-processamento-salarial/
-    │   ├── README.md
-    │   └── ProcessamentoSalarial.java
+    │   ├── ProcessamentoSalarial.java
+    │   └── README.md
     └── TASK-JAVA-003-controlo-acessos/
-        ├── README.md
-        └── ProcessamentoSalarial.java   # adicionar depois de resolver
+        ├── ControloAcesso.java
+        └── README.md
 ```
 
-Cada pasta contém o enunciado e os critérios de aceitação. O ficheiro `ProcessamentoSalarial` contém a minha própria implementação **quando a tarefa estiver resolvida**. Os nomes das pastas são permanentes para preservar o histórico.
+## Executar
 
-## Como executar uma tarefa concluída
-
-É necessário ter o JDK instalado. Entrar na pasta da tarefa e executar:
+É necessário um JDK instalado. Cada tarefa é independente e usa apenas Java, sem bibliotecas externas.
 
 ```bash
-javac ProcessamentoSalarial.java
-java ProcessamentoSalarial
+cd tasks/TASK-JAVA-001-autorizacao-pagamentos
+javac AutorizacaoPagamento.java
+java AutorizacaoPagamento
 ```
 
-Para experimentar outros casos de teste, alterar os valores das variáveis no início do método `main`, compilar novamente e executar. Nesta fase ainda não se utilizam bibliotecas de testes nem frameworks.
+Para as outras tarefas, entrar na pasta respetiva e usar `ProcessamentoSalarial` ou `ControloAcesso` como nome de classe. Para experimentar outro cenário, alterar os valores iniciais no método `main` e compilar novamente.
 
 ## Método de aprendizagem
 
-**Ticket → tentativa individual → testes manuais → code review → correções → aprovação.**
+1. Ler os requisitos e identificar as regras.
+2. Pensar na solução e, quando necessário, escrevê-la no caderno.
+3. Implementar e testar diferentes cenários.
+4. Rever os erros e documentar o resultado.
 
-Os exercícios são implementados por mim; o Tech Lead simulado orienta e revê, sem entregar soluções prontas. As tarefas concluídas documentam o que consegui fazer e as lições aprendidas. As tarefas abertas preservam apenas o enunciado até existir implementação própria.
+As verificações destas tarefas são manuais. O estado «Concluída» indica a revisão dos exercícios de aprendizagem, não uma certificação externa.
 
-## Próximos passos
+## Próximas publicações
 
-Consolidar Java fundamental antes de avançar para ciclos, métodos, orientação a objetos, testes automatizados e, mais tarde, Java backend e Spring Boot.
+Criei um [guia simples de publicação](docs/COMO-PUBLICAR.md) e um [modelo de README](docs/MODELO-README.md) para manter consistência quando acrescentar novos exercícios e projetos.
