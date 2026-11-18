@@ -1,10 +1,11 @@
-import java.math.List;
+import java.util.ArrayList;
+import java.util.Lis
 
 public class NotificadorMultiplo implements Notificador{
 
-    List<Notificador> notificadorList = new ArrayList<>();
+    List<Notificador> notificadorList ;
 
-    public NotificadorMultiplo(Notificador notificadorList){
+    public NotificadorMultiplo(List<Notificador> notificadorList){
 
         if(notificadorList == null){
             throw new IllegalArgumentException("Canal invalido")
@@ -14,24 +15,16 @@ public class NotificadorMultiplo implements Notificador{
 
 
     @Override
-    public enviar(String mensagem){
+    public void enviar(String mensagem) {
 
-        System.out.println(mensagem);
-
-    }
-
-    public  void notificar(String mensagem)
-        if (mensagem == null || mensagem.isBlank()){
+        if (mensagem == null || mensagem.isBlank()) {
             throw new IllegalArgumentException("Mensagem invalida");
-
-        for (Notificador notificador : notificadorList){
-            notificador.enviar(mensagem)
         }
-    }
+            for (Notificador notificador : notificadorList) {
+                notificador.enviar(mensagem);
+            }
+        }
 
-    public static void main(String[] args){
 
 
-
-    }
 }

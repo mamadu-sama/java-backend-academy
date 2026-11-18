@@ -1,11 +1,16 @@
 import java.util.Objects;
 
 public class ServicoBancario {
-    private final NotificadorMultiplo notificadorMultiplo;
+    private final Notificador notificador;
 
 
-    public ServicoBancario(NotificadorMultiplo notificadorMultiplo){
+    public ServicoBancario(Notificador notificador){
 
-        this.notificadorMultiplo = Objects.requireNonNull(notificadorMultiplo);
+        this.notificador = Objects.requireNonNull(notificador);
+    }
+
+
+    public void avisarCliente(String mensagem){
+        notificador.enviar(mensagem);
     }
 }
