@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.Lis
+
+import java.util.List;
 
 public class NotificadorMultiplo implements Notificador{
 
@@ -8,7 +8,7 @@ public class NotificadorMultiplo implements Notificador{
     public NotificadorMultiplo(List<Notificador> notificadorList){
 
         if(notificadorList == null){
-            throw new IllegalArgumentException("Canal invalido")
+            throw new IllegalArgumentException("Canal invalido");
         }
         this.notificadorList = notificadorList;
     }
