@@ -31,11 +31,25 @@ Depois de implementar os ficheiros, compilar e executar com o JDK instalado. Os 
 
 | Cenário | Esperado | Observado |
 | --- | --- | --- |
-| Email e SMS na lista | A mesma mensagem aparece nos dois canais | Pendente |
-| Apenas um canal na lista | A mensagem aparece uma vez | Pendente |
-| Lista vazia | Comportamento definido e documentado | Pendente |
-| Dependência nula | Comportamento definido e documentado | Pendente |
+| Email e SMS na lista | A mesma mensagem aparece nos dois canais | Concluído |
+| Apenas um canal na lista | A mensagem aparece uma vez | Concluído |
+| Lista vazia | Comportamento definido e documentado | Concluído |
+| Dependência nula | Comportamento definido e documentado | Concluído |
 
 ## O que aprendi
 
-A preencher depois de implementar e rever a tarefa.
+Neste desafio, pratiquei interfaces, polimorfismo, Collections e injeção de dependências por construtor.
+
+No início, tive dificuldades em perceber como ligar a lista de notificadores ao `NotificadorMultiplo` e depois ao `ServicoBancario`.
+
+Durante a implementação, aprendi que:
+
+- `List<Notificador>` permite guardar diferentes objetos que implementam a mesma interface.
+- Uma lista de notificadores não é a mesma coisa que um objeto do tipo `Notificador`.
+- O `NotificadorMultiplo` pode implementar a interface `Notificador` e utilizar internamente outros notificadores.
+- Com o ciclo `for-each`, consigo percorrer a lista e chamar o método `enviar()` de cada objeto.
+- O `ServicoBancario` não precisa de conhecer as classes concretas dos notificadores. Basta receber um objeto que implemente a interface.
+
+Depois de corrigir os erros, consegui compilar e executar o programa, enviando a mesma mensagem para os canais Email e SMS através de uma única chamada ao serviço.
+
+Este exercício ajudou-me a compreender melhor como diferentes classes podem trabalhar em conjunto sem depender diretamente umas das outras.
