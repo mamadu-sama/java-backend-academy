@@ -16,8 +16,11 @@ public class TesteNotificacoes {
         notificadores.add(email);
         notificadores.add(sms);
 
-        ServicoBancoo  servico = new ServicoBanco(notificadores);
-        servico.avisarCliente("Aviso enviado")
+        NotificadorMultiplo canais = new NotificadorMultiplo(notificadores);
+
+        ServicoBancario  servico = new ServicoBancario(canais);
+
+        servico.avisarCliente("Aviso enviado para todos os canais");
 
 
 
